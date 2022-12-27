@@ -1,6 +1,6 @@
-import Card1 from './Card1'
+import Card1 from './Carddd'
 import { FcApproval } from "react-icons/fc";
-import Carousel from './Carousel'
+import Carousel from './Cosel'
 import './Dashboard.css'
 function Dashboard() {
     return (

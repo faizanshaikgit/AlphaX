@@ -1,4 +1,4 @@
-import './Carousel.css'
+import './Cosel.css'
 import Carouselcard from './Carouselcard'
 function Carousel() {
     return (

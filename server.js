@@ -14,7 +14,7 @@ app.use(exp.static(path.join(__dirname,'./build')))
 //creating a mongoclient..
 const mdbClient=require('mongodb').MongoClient
 //Database connection...
-const Database="mongodb+srv://poorna_1307:chandu13@poorna.zv57ipv.mongodb.net/?retryWrites=true&w=majority";
+const Database=process.env.DATA_BASE_URl;
 //calling connect method on mongoclient with database url
 mdbClient.connect(Database)
     .then((client)=>{

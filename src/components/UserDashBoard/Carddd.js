@@ -1,5 +1,5 @@
 import React from 'react'
-import './card1.css'
+import './carddd.css'
 import { IoStatsChartSharp,IoInformationCircleSharp } from "react-icons/io5";
 import { FaShoppingCart } from "react-icons/fa";
 import vaccume from '../../Images/vaccume.jpg';
